@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Bee body -->
+  <ellipse cx="32" cy="36" rx="14" ry="18" fill="#FFB300"/>
+  
+  <!-- Black stripes -->
+  <ellipse cx="32" cy="30" rx="14" ry="3" fill="#000"/>
+  <ellipse cx="32" cy="38" rx="14" ry="3" fill="#000"/>
+  <ellipse cx="32" cy="46" rx="13" ry="3" fill="#000"/>
+  
+  <!-- Head -->
+  <circle cx="32" cy="18" r="9" fill="#FFB300"/>
+  
+  <!-- Eyes -->
+  <circle cx="28" cy="17" r="2.5" fill="#000"/>
+  <circle cx="36" cy="17" r="2.5" fill="#000"/>
+  
+  <!-- Antennae -->
+  <path d="M 28 11 Q 24 6 22 4" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 36 11 Q 40 6 42 4" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="22" cy="4" r="1.5" fill="#000"/>
+  <circle cx="42" cy="4" r="1.5" fill="#000"/>
+  
+  <!-- Left wing -->
+  <ellipse cx="22" cy="28" rx="10" ry="14" fill="#FFF" opacity="0.7" transform="rotate(-25 22 28)"/>
+  <ellipse cx="22" cy="28" rx="10" ry="14" fill="none" stroke="#E0E0E0" stroke-width="1" transform="rotate(-25 22 28)"/>
+  
+  <!-- Right wing -->
+  <ellipse cx="42" cy="28" rx="10" ry="14" fill="#FFF" opacity="0.7" transform="rotate(25 42 28)"/>
+  <ellipse cx="42" cy="28" rx="10" ry="14" fill="none" stroke="#E0E0E0" stroke-width="1" transform="rotate(25 42 28)"/>
+  
+  <!-- Stinger -->
+  <path d="M 32 52 L 32 58 L 30 60 L 32 58 L 34 60 Z" fill="#000"/>
+</svg>
