@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import ProfilePage from './pages/ProfilePage.jsx'
 import { Toaster } from 'react-hot-toast';
-import { AuthContext } from '../context/AuthContext.jsx'
+import { AuthContext } from './context/AuthContext.jsx'
 
 
 const App = () => {
